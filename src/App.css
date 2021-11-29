@@ -1,0 +1,52 @@
+.app {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+  padding-bottom: 11rem;
+}
+
+.app__header {
+  background-color: #fff;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.75);
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0.188rem 0.5rem rgba(211, 211, 211, 0.5);
+}
+
+/* .app__headerImage {
+} */
+.modal__form {
+  background-color: #fafafa;
+  width: 15%;
+  height: max-content;
+  padding: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.625rem;
+}
+
+.form__input {
+  margin-bottom: 1rem;
+}
+
+.app__avatarButton {
+  display: flex !important;
+  width: max-content !important;
+  height: max-content !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.app__avatar {
+  margin: 0 !important;
+}
